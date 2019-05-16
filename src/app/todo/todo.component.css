@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    height: 100%;
+    width: 100%;
+    
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    Box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    width: 500px;
+    height: 350px;
+    transform: translateY(20%);
+
+
+}
+
+form {
+    
+    justify-content: center;
+    width: 300px;   
+    transform: translateX(50px);
+}
+
+
+button {
+    background-color: white;
+    color: #ff69b4;
+    
+}
+
+.add-btn{
+    background: #f857a6;
+    color: white;
+    width: 405px;
+    margin: 10px;
+    transform: translateX(-10px);
+    border-radius: 15px;
+}
+
+input {
+    width: 400px;
+    border-radius: 15px;
+    height:40px;
+}
+
+span {
+    display: flex;
+    float: right;
+    transform:translateX(100px);
+}
+
+

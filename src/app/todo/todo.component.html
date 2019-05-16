@@ -1,0 +1,32 @@
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<body>
+  
+
+<section>
+  <form>
+    <h1>ToDo List</h1>
+    <p>A place to store things you have to do!</p>
+    <input placeholder="      filter your results">
+  <ul>
+    <li *ngFor = "let todo of todoList">
+      <button *ngIf="!todo.completed">complete</button>
+      {{todo.task}}
+
+
+
+
+      <span>X</span>
+    </li>
+
+
+  </ul>
+  <input placeholder="      add to your to do"><br>
+  <button class ="add-btn">Add</button>
+
+
+  </form>
+</section>
+
+
+
+</body>
